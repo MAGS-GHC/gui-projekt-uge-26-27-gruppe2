@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QEHyznPP8QdxdlTGEUUFeXHSPeEMEOT8SfHUvlOREe7tuVAqM8QB7hiRnIW9uMfxixmrgwM3VBj6Xgibo8iJKg==",
+  "dgSpecHash": "T+5Ne87BoWABq/pN1NNd6YWE0DajmUH6Hmggc+ThfWOBH59nhMszmXYtjwA6v7pGIVK4ZIum+08m6CLdEFfLOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nickl\\source\\repos\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj",
+  "projectFilePath": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nickl\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.2\\microsoft.aspnetcore.openapi.7.0.2.nupkg.sha512",
     "C:\\Users\\nickl\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

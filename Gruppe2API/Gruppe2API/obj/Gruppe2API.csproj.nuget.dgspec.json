@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nickl\\source\\repos\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj": {}
+    "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nickl\\source\\repos\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj": {
+    "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nickl\\source\\repos\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj",
+        "projectUniqueName": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj",
         "projectName": "Gruppe2API",
-        "projectPath": "C:\\Users\\nickl\\source\\repos\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj",
+        "projectPath": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj",
         "packagesPath": "C:\\Users\\nickl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nickl\\source\\repos\\Gruppe2API\\Gruppe2API\\obj\\",
+        "outputPath": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
