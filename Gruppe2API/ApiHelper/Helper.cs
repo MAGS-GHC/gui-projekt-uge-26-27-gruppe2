@@ -1,17 +1,14 @@
 ﻿using Models;
 using MySql.Data.MySqlClient;
-using static System.Collections.Specialized.BitVector32;
 using System.Data;
-using System.Reflection.PortableExecutable;
-using System.Text.RegularExpressions;
+using System.Data.Common;
+
 
 namespace ApiHelper
 {
     public class Helper
     {
         string connectionString;
-
-        // Other methods and properties...
 
         public Helper()
         {
@@ -34,7 +31,8 @@ namespace ApiHelper
         {
             var match = new MatchInfo
             {
-                Id = Convert.ToInt32(reader["MatchId"]),
+                Id = Convert.ToInt32(reader["Id"]),
+                StadiumId = Convert.ToInt32(reader["StadiumId"]),
                 SoldSeats = Convert.ToInt32(reader["SoldSeats"]),
                 MatchDate = Convert.ToDateTime(reader["MatchDate"]),
                 HomeTeam = Convert.ToString(reader["HomeTeam"]),
@@ -60,7 +58,7 @@ namespace ApiHelper
             return section;
         }
 
-        public Seat MapSeat(IDataReader reader)
+        private Seat MapSeat(IDataReader reader)
         {
             var seat = new Seat
             {
@@ -72,7 +70,7 @@ namespace ApiHelper
             return seat;
         }
 
-        public TakenSeat MapTakenSeat(IDataReader reader)
+        private TakenSeat MapTakenSeat(IDataReader reader)
         {
             var seat = new TakenSeat
             {
@@ -84,17 +82,18 @@ namespace ApiHelper
         }
 
 
-        private List<StadiumSection> GetStadiumSection(int stadiumId)
+        private async Task<List<StadiumSection>> GetStadiumSection(int stadiumId)
         {
-            using (var connection = new MySqlConnection(connectionString))
+
+            string query = $"SELECT * FROM StadiumSection WHERE StadiumId = {stadiumId}";
+            List<StadiumSection> sections = new List<StadiumSection>();
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
-                var query = $"SELECT * FROM StadiumSection WHERE StadiumId = {stadiumId}";
-                List<StadiumSection> sections = new List<StadiumSection>();
-                var command = new MySqlCommand(query, connection);
+                MySqlCommand command = new MySqlCommand(query, connection);
 
-                connection.Open();
+                await connection.OpenAsync();
 
-                var reader = command.ExecuteReader();
+                DbDataReader reader = await command.ExecuteReaderAsync();
 
                 while (reader.Read())
                 {
@@ -108,17 +107,18 @@ namespace ApiHelper
         }
 
 
-        public List<MatchInfo> GetMatches(int stadiumId)
+        public async Task<List<MatchInfo>> GetMatches(int stadiumId)
         {
-            using (var connection = new MySqlConnection(connectionString))
+
+            string query = $"SELECT * FROM MatchInfo WHERE StadiumId = {stadiumId}";
+            List<MatchInfo> matches = new List<MatchInfo>();
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
-                var query = $"SELECT * FROM MatchInfo WHERE StadiumId = {stadiumId}";
-                List<MatchInfo> matches = new List<MatchInfo>();
-                var command = new MySqlCommand(query, connection);
+                MySqlCommand command = new MySqlCommand(query, connection);
 
-                connection.Open();
+                await connection.OpenAsync();
 
-                var reader = command.ExecuteReader();
+                DbDataReader reader = await command.ExecuteReaderAsync();
 
                 while (reader.Read())
                 {
@@ -129,17 +129,17 @@ namespace ApiHelper
         }
 
 
-        public Stadium GetStadium(int stadiumId)
+        public async Task<Stadium> GetStadium(int stadiumId)
         {
-            using (var connection = new MySqlConnection(connectionString))
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
-                var query = $"SELECT * FROM Stadium WHERE Id = {stadiumId}";
+                string query = $"SELECT * FROM Stadium WHERE Id = {stadiumId}";
                 Stadium stadium = null;
-                var command = new MySqlCommand(query, connection);
+                MySqlCommand command = new MySqlCommand(query, connection);
 
-                connection.Open();
+                await connection.OpenAsync();
 
-                var reader = command.ExecuteReader();
+                DbDataReader reader = await command.ExecuteReaderAsync();
 
                 while (reader.Read())
                 {
@@ -147,16 +147,13 @@ namespace ApiHelper
                     {
                         stadium = MapStadium(reader);
                     }
-
-
                 }
 
                 if (stadium != null)
                 {
-                    stadium.MatchList = GetMatches(stadium.Id);
-                    stadium.Sections = GetStadiumSection(stadium.Id);
+                    stadium.MatchList = await GetMatches(stadium.Id);
+                    stadium.Sections = await GetStadiumSection(stadium.Id);
                 }
-
                 return stadium;
             }
         }
@@ -164,24 +161,25 @@ namespace ApiHelper
 
 
 
-        public List<Seat> GetSeats(int stadiumId, int matchId, int sectionId)
+        public async Task<List<Seat>> GetSeats(int stadiumId, int matchId, int sectionId)
         {
-            using (var connection = new MySqlConnection(connectionString))
+
+            string query = $"SELECT s.* FROM Seat s JOIN Row r ON s.RowId = r.Id JOIN StadiumSection ss ON r.SectionId = ss.Id JOIN Stadium st ON ss.StadiumId = st.Id WHERE ss.Id = {sectionId}  AND st.Id = {stadiumId};";
+            List<Seat> allSeats = new();
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
-                var query = $"SELECT s.* FROM Seat s JOIN Row r ON s.RowId = r.Id JOIN StadiumSection ss ON r.SectionId = ss.Id JOIN Stadium st ON ss.StadiumId = st.Id WHERE ss.Id = {sectionId}  AND st.Id = {stadiumId};";
-                List<Seat> allSeats = new();
-                var command = new MySqlCommand(query, connection);
+                MySqlCommand command = new MySqlCommand(query, connection);
 
-                connection.Open();
+                await connection.OpenAsync();
 
-                var reader = command.ExecuteReader();
+                DbDataReader reader = await command.ExecuteReaderAsync();
 
                 while (reader.Read())
                 {
                     allSeats.Add(MapSeat(reader));
                 }
 
-                List<TakenSeat> takenSeats = GetTakenSeats(stadiumId, matchId, sectionId);
+                List<TakenSeat> takenSeats = await GetTakenSeats(stadiumId, matchId, sectionId);
 
                 takenSeats.ForEach(t =>
                 {
@@ -193,11 +191,9 @@ namespace ApiHelper
         }
 
 
-        public List<TakenSeat> GetTakenSeats(int stadiumId, int matchId, int sectionId)
+        public async Task<List<TakenSeat>> GetTakenSeats(int stadiumId, int matchId, int sectionId)
         {
-            using (var connection = new MySqlConnection(connectionString))
-            {
-                var query = $@"SELECT ts.* FROM TakenSeat ts
+            string query = $@"SELECT ts.* FROM TakenSeat ts
                          JOIN Seat s ON ts.SeatId = s.Id      
                          JOIN Row r ON s.RowId = r.Id 
                          JOIN StadiumSection ss ON r.SectionId = ss.Id
@@ -206,12 +202,15 @@ namespace ApiHelper
                          AND ss.StadiumId = {stadiumId} 
                          AND ts.MatchId = {matchId}";
 
-                List<TakenSeat> seats = new();
-                var command = new MySqlCommand(query, connection);
+            List<TakenSeat> seats = new();
 
-                connection.Open();
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                MySqlCommand command = new MySqlCommand(query, connection);
 
-                var reader = command.ExecuteReader();
+                await connection.OpenAsync();
+
+                DbDataReader reader = await command.ExecuteReaderAsync();
 
                 while (reader.Read())
                 {
@@ -221,5 +220,64 @@ namespace ApiHelper
                 return seats;
             }
         }
+
+
+        public async Task<bool> BuySeat(List<TakenSeat> seats)
+        {
+            List<TakenSeat> takenSeats = await CheckTakenSeats(seats);
+            foreach (TakenSeat tSeat in takenSeats)
+            {
+                if (seats.Any(s => s.SeatId == tSeat.SeatId && s.MatchId == tSeat.MatchId))
+                {
+                    return false;
+                }
+            }
+
+
+            string query = $@"INSERT IGNORE INTO TakenSeat (MatchId, SeatId) VALUES";
+            seats.ForEach(s =>
+            {
+                query += $" ({s.MatchId},{s.SeatId}),";
+            });
+            query = query.Remove(query.Length - 1, 1);
+            query += ";";
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                MySqlCommand command = new MySqlCommand(query, connection);
+
+                await connection.OpenAsync();
+
+                var rowAffected = await command.ExecuteNonQueryAsync();
+
+                return rowAffected == seats.Count;
+            }
+        }
+
+        private async Task<List<TakenSeat>> CheckTakenSeats(List<TakenSeat> seats)
+        {
+            string getQuery = $"SELECT * FROM TakenSeat Where";
+            seats.ForEach(s =>
+            {
+                getQuery += $" MatchId = {s.MatchId} AND SeatId = {s.SeatId} OR";
+            });
+            getQuery = getQuery.Remove(getQuery.Length - 2, 2);
+            getQuery += ";";
+            List<TakenSeat> takenSeats = new List<TakenSeat>();
+
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                MySqlCommand command = new MySqlCommand(getQuery, connection);
+                await connection.OpenAsync();
+                DbDataReader reader = await command.ExecuteReaderAsync();
+                while (reader.Read())
+                {
+                    takenSeats.Add(MapTakenSeat(reader));
+                }
+            }
+            return takenSeats;
+        }
+
     }
 }

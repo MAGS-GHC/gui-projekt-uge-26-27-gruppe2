@@ -2190,23 +2190,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jonas\\.nuget\\packages\\": {},
+    "C:\\Users\\jonas\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj",
+      "projectUniqueName": "C:\\Users\\jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj",
       "projectName": "Gruppe2API",
-      "projectPath": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj",
-      "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\obj\\",
+      "projectPath": "C:\\Users\\jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj",
+      "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2216,17 +2216,18 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23225.8\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\ApiHelper\\ApiHelper.csproj": {
-              "projectPath": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\ApiHelper\\ApiHelper.csproj"
+            "C:\\Users\\jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\ApiHelper\\ApiHelper.csproj": {
+              "projectPath": "C:\\Users\\jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\ApiHelper\\ApiHelper.csproj"
             },
-            "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj"
+            "C:\\Users\\jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj"
             }
           }
         }
@@ -2269,7 +2270,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23274.1\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23225.8\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Http.Extensions;
+using ApiHelper;
 using Microsoft.AspNetCore.Mvc;
 using Models;
 
@@ -9,16 +9,24 @@ namespace Gruppe2API.Controllers
     public class StadiumController : ControllerBase
     {
         [HttpGet("GetStadium")]
-        public Stadium? GetStadium(int stadiumId)
+        public async Task<Stadium?> GetStadium(int stadiumId)
         {
-            return new ApiHelper.Helper().GetStadium(stadiumId);
+            Helper helper = new Helper();
+            return await helper.GetStadium(stadiumId);
         }
 
         [HttpGet("GetSeats")]
-        public List<Seat>? GetMatches(int stadiumId, int matchId, int sectionId)
+        public async Task<List<Seat>?> GetMatches(int stadiumId, int matchId, int sectionId)
         {
-            return new ApiHelper.Helper().GetSeats(stadiumId, matchId, sectionId);
+            Helper helper = new Helper();
+            return await helper.GetSeats(stadiumId, matchId, sectionId);
         }
 
+        [HttpPost("BuySeats")]
+        public async Task<bool> PostSeats(List<TakenSeat> seat)
+        {
+            Helper helper = new Helper();
+            return await helper.BuySeat(seat);
+        }
     }
 }
