@@ -2,6 +2,7 @@
 using MySql.Data.MySqlClient;
 using static System.Collections.Specialized.BitVector32;
 using System.Data;
+using Newtonsoft.Json.Linq;
 
 namespace ApiHelper
 {
@@ -13,7 +14,12 @@ namespace ApiHelper
 
         public Helper()
         {
-            connectionString = "Server=sql7.freemysqlhosting.net; User ID=sql7629046; Password=23deIfAcse; Database=sql7629046";
+            string appSettingsPath = Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json");
+            string appSettingsContent = File.ReadAllText(appSettingsPath);
+            JObject appSettingsJson = JObject.Parse(appSettingsContent);
+
+            connectionString = (string)appSettingsJson["ConnectionStrings"]["MyConn"];
+            //connectionString = "Server=sql7.freemysqlhosting.net; User ID=sql7629046; Password=23deIfAcse; Database=sql7629046";
         }
 
         private Stadium MapStadium(IDataReader reader)
@@ -87,7 +93,7 @@ namespace ApiHelper
                         stadium = MapStadium(reader);
                     }
 
-                   
+
                 }
 
                 if (stadium != null)

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "44+iLNfbU0Qz27Eqo/E9/ANm8593KQBpYG1wiKAMfsyMGx7XL56wSZOkvbuV3hD/xxD8QBjiGRIErQuhAZc1iw==",
+  "dgSpecHash": "uQbOjEN6rmjzJZ4ZJuroB3sIam6eHit8OFp3WeQaQjOD9Oe8oQ/auysICimYpzjfxYae2zhq1ekTNKkOswnHzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\ApiHelper\\ApiHelper.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\nickl\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\nickl\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\nickl\\.nuget\\packages\\mysql.data\\8.0.33\\mysql.data.8.0.33.nupkg.sha512",
+    "C:\\Users\\nickl\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\nickl\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
     "C:\\Users\\nickl\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\nickl\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",
