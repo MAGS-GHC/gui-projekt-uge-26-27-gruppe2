@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ak1gp9iDKqgFp0+yaKlmuuLYJCGqkiwZanJg0vLxzpg5xR4ONpXSNr4L4jSHzhy1I8+IWSyFLuRDaFaH6zD14A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj",
+=======
+  "dgSpecHash": "68U5Z5xoLAm9BNX7CIapATUP2wSWgyALM4AzIvuuEgegutb5SBqHOAOCS4K91cKzDD+7TW4iOaebEENMHsTDHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj",
+>>>>>>> 02501135a43a6df78966a46e2475863d1a34cc04
   "expectedPackageFiles": [],
   "logs": []
 }
