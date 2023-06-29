@@ -8,17 +8,17 @@ namespace Gruppe2API.Controllers
     [Route("[controller]")]
     public class StadiumController : ControllerBase
     {
-        [HttpGet(Name = "GetStadium")]
+        [HttpGet("GetStadium")]
         public Stadium? GetStadium(int stadiumId)
         {
             return new ApiHelper.Helper().GetStadium(stadiumId);
         }
 
-        //[HttpGet(Name = "GetMatches")]
-        //public List<Match>? GetMatches(int stadiumId)
-        //{
-        //    return new ApiHelper.Helper().GetMatches(stadiumId);
-        //}
+        [HttpGet("GetSeats")]
+        public List<Seat>? GetMatches(int stadiumId, int matchId, int sectionId)
+        {
+            return new ApiHelper.Helper().GetSeats(stadiumId, matchId, sectionId);
+        }
 
     }
 }

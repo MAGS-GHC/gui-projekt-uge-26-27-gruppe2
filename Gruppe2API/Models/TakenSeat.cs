@@ -8,6 +8,7 @@ namespace Models
 {
     public class TakenSeat
     {
+        public int Id { get; set; }
         public int MatchId { get; set; }
         public int SeatId { get; set; }
     }

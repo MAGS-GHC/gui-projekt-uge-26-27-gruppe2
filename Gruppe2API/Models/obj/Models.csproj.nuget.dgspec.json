@@ -1,6 +1,19 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\obj\\",
+=======
     "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj": {}
   },
   "projects": {
@@ -12,6 +25,7 @@
         "projectPath": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\nickl\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\obj\\",
+>>>>>>> 02501135a43a6df78966a46e2475863d1a34cc04
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

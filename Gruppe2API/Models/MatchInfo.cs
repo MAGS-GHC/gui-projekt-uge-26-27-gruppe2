@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Match
+    public class MatchInfo
     {
-        public int MatchId { get; set; }
-
+        public int Id { get; set; }
+        public int StadionId { get; set; }
         public string HomeTeam { get; set; }
         public string AwayTeam { get; set; }
-
         public DateTime MatchDate { get; set; }
-
         public int SoldSeats { get; set; }
     }
 }

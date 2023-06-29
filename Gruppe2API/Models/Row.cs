@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Seats
+    public class Row
     {
-        public int Id { get; set; }
-        public int RowNumber { get; set; }
-        public int SeatNumber { get; set; }
+         public int Id { get; set; }
+         public int SectionId { get; set; }
+         public int RowNumber { get; set; }
     }
 }

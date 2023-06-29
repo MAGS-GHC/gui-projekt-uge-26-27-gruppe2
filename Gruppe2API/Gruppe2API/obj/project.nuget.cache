@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "DSBMlpZ/lJCjo+7M5ubTC6H27tt9W6A8I26GRkRSpnusv7lvMvXBV8hYKpUfQ0Dol3xlPSAVX2J+Igx+c6N0Pw==",
+=======
+  "dgSpecHash": "9NMDICksa3iAuTPnjd2Ym7XPCG6osEfj18CRgt7Oy/lzyFxzBc5zirGzaTaCoEprNqLV+GDjI2cx0fFHozMf7g==",
+>>>>>>> 06bf1323de3812825d13652e1f58e95a0771028c
   "success": true,
   "projectFilePath": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj",
   "expectedPackageFiles": [

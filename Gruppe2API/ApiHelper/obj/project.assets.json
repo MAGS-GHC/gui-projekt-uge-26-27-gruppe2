@@ -1772,11 +1772,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\ApiHelper\\ApiHelper.csproj",
+      "projectName": "ApiHelper",
+      "projectPath": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\ApiHelper\\ApiHelper.csproj",
+      "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\ApiHelper\\obj\\",
+=======
       "projectUniqueName": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\ApiHelper\\ApiHelper.csproj",
       "projectName": "ApiHelper",
       "projectPath": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\ApiHelper\\ApiHelper.csproj",
       "packagesPath": "C:\\Users\\nickl\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\ApiHelper\\obj\\",
+>>>>>>> 02501135a43a6df78966a46e2475863d1a34cc04
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1798,8 +1806,13 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+<<<<<<< HEAD
+            "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj"
+=======
             "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj": {
               "projectPath": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Models\\Models.csproj"
+>>>>>>> 02501135a43a6df78966a46e2475863d1a34cc04
             }
           }
         }
