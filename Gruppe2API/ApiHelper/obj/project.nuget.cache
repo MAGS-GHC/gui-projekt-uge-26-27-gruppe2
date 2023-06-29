@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i6lconKdQUy8N17ZBQbd3+HrBqvbVBncTIwBHsszp/iQxzbcS8ngCtWEY97f7hQLj95zn8sFfk3zPNxCAb7xBw==",
+  "dgSpecHash": "BA/JUJte8YCxBqHUpNSilSDUP1A0haVjsC4JsFw7xbPIZM1C5i6lz229GN7JajK5m6VTdTerofQk6k0YhaRu2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jonas\\source\\repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\ApiHelper\\ApiHelper.csproj",
+  "projectFilePath": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\ApiHelper\\ApiHelper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jonas\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
