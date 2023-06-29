@@ -1,7 +1,12 @@
 ﻿using Models;
 using MySql.Data.MySqlClient;
 using System.Data;
-using System.Data.Common;
+<<<<<<< HEAD
+using Newtonsoft.Json.Linq;
+=======
+using System.Reflection.PortableExecutable;
+using System.Text.RegularExpressions;
+>>>>>>> 06bf1323de3812825d13652e1f58e95a0771028c
 
 
 namespace ApiHelper
@@ -12,7 +17,12 @@ namespace ApiHelper
 
         public Helper()
         {
-            connectionString = "Server=sql7.freemysqlhosting.net; User ID=sql7629046; Password=23deIfAcse; Database=sql7629046";
+            string appSettingsPath = Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json");
+            string appSettingsContent = File.ReadAllText(appSettingsPath);
+            JObject appSettingsJson = JObject.Parse(appSettingsContent);
+
+            connectionString = (string)appSettingsJson["ConnectionStrings"]["MyConn"];
+            //connectionString = "Server=sql7.freemysqlhosting.net; User ID=sql7629046; Password=23deIfAcse; Database=sql7629046";
         }
 
         private Stadium MapStadium(IDataReader reader)
