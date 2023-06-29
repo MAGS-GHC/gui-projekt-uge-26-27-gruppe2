@@ -1,13 +1,10 @@
 ﻿using Models;
 using MySql.Data.MySqlClient;
 using System.Data;
-<<<<<<< HEAD
 using Newtonsoft.Json.Linq;
-=======
 using System.Reflection.PortableExecutable;
 using System.Text.RegularExpressions;
->>>>>>> 06bf1323de3812825d13652e1f58e95a0771028c
-
+using System.Data.Common;
 
 namespace ApiHelper
 {
@@ -20,9 +17,7 @@ namespace ApiHelper
             string appSettingsPath = Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json");
             string appSettingsContent = File.ReadAllText(appSettingsPath);
             JObject appSettingsJson = JObject.Parse(appSettingsContent);
-
             connectionString = (string)appSettingsJson["ConnectionStrings"]["MyConn"];
-            //connectionString = "Server=sql7.freemysqlhosting.net; User ID=sql7629046; Password=23deIfAcse; Database=sql7629046";
         }
 
         private Stadium MapStadium(IDataReader reader)
@@ -43,7 +38,6 @@ namespace ApiHelper
             {
                 Id = Convert.ToInt32(reader["Id"]),
                 StadiumId = Convert.ToInt32(reader["StadiumId"]),
-                SoldSeats = Convert.ToInt32(reader["SoldSeats"]),
                 MatchDate = Convert.ToDateTime(reader["MatchDate"]),
                 HomeTeam = Convert.ToString(reader["HomeTeam"]),
                 AwayTeam = Convert.ToString(reader["AwayTeam"]),
@@ -61,8 +55,6 @@ namespace ApiHelper
                 Name = Convert.ToString((string)reader["Name"]),
                 StandingSection = Convert.ToInt32(reader["StandingSection"]) == 1 ? true : false,
                 Rows = Convert.ToInt32(reader["Rows"]),
-
-
             };
 
             return section;
@@ -94,24 +86,17 @@ namespace ApiHelper
 
         private async Task<List<StadiumSection>> GetStadiumSection(int stadiumId)
         {
-
             string query = $"SELECT * FROM StadiumSection WHERE StadiumId = {stadiumId}";
             List<StadiumSection> sections = new List<StadiumSection>();
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 MySqlCommand command = new MySqlCommand(query, connection);
-
                 await connection.OpenAsync();
-
                 DbDataReader reader = await command.ExecuteReaderAsync();
-
                 while (reader.Read())
                 {
-
                     sections.Add(MapStadiumSection(reader));
-
                 }
-
                 return sections;
             }
         }
@@ -119,17 +104,13 @@ namespace ApiHelper
 
         public async Task<List<MatchInfo>> GetMatches(int stadiumId)
         {
-
             string query = $"SELECT * FROM MatchInfo WHERE StadiumId = {stadiumId}";
             List<MatchInfo> matches = new List<MatchInfo>();
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 MySqlCommand command = new MySqlCommand(query, connection);
-
                 await connection.OpenAsync();
-
                 DbDataReader reader = await command.ExecuteReaderAsync();
-
                 while (reader.Read())
                 {
                     matches.Add(MapMatch(reader));
@@ -146,11 +127,8 @@ namespace ApiHelper
                 string query = $"SELECT * FROM Stadium WHERE Id = {stadiumId}";
                 Stadium stadium = null;
                 MySqlCommand command = new MySqlCommand(query, connection);
-
                 await connection.OpenAsync();
-
                 DbDataReader reader = await command.ExecuteReaderAsync();
-
                 while (reader.Read())
                 {
                     if (stadium == null)

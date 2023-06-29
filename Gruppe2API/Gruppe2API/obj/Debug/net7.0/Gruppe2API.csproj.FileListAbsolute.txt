@@ -117,3 +117,4 @@ C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\Gruppe2API\
 C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\Gruppe2API\obj\Debug\net7.0\Gruppe2API.genruntimeconfig.cache
 C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\Gruppe2API\obj\Debug\net7.0\ref\Gruppe2API.dll
 C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\Gruppe2API\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\jonas\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\Gruppe2API\bin\Debug\net7.0\Newtonsoft.Json.dll

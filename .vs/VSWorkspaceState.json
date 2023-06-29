@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Gruppe2API",
+    "\\Gruppe2API\\ApiHelper"
   ],
-  "SelectedNode": "\\C:\\Users\\jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2",
+  "SelectedNode": "\\Gruppe2API\\ApiHelper\\Helper.cs",
   "PreviewInSolutionExplorer": false
 }
