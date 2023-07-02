@@ -6,8 +6,8 @@
 }
 
 .Stadium1 {
-    width: 1820px;
-    height: 1024px;
+    width: 1920px;
+    height: 1080px;
     left: -190px;
     top: 0px;
     position: absolute
@@ -47,7 +47,13 @@
     border-left: 1px white solid;
     border-top: 1px white solid;
     border-right: 1px white solid;
-    border-bottom: 1px white solid
+    border-bottom: 1px white solid;
+    transition: background-color 0.3 ease;
+}
+
+.MFan-container:hover {
+    background-color: #766f6f;
+
 }
 
 .L-container {
@@ -472,14 +478,24 @@ body {
     height: 500px;
     background-color: rgb(0, 0, 0);
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+}
+
+.button {
+    position: absolute;
+    right: 4%;
+    bottom: 4.5%;
+    font-size: medium;
+    background-color: #64BB4E;
+    color: white;
+
 }
 
 .container {
@@ -489,6 +505,7 @@ body {
     align-items: center;
 }
 
+
 .seat {
     background-color: #444451;
     height: 12px;
@@ -496,6 +513,7 @@ body {
     margin: 3px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+
 }
 
 .seat.selected {
@@ -524,6 +542,7 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+
 }
 
 .showcase li {
