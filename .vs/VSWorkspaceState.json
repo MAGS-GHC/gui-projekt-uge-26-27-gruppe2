@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\FrontEnd - Gruppe 2",
-    "\\Gruppe2API"
+    "\\Gruppe2API",
+    "\\Gruppe2API\\ApiHelper"
   ],
-  "SelectedNode": "\\Gruppe2API\\Gruppe2API.sln",
+  "SelectedNode": "\\Gruppe2API\\ApiHelper\\Helper.cs",
   "PreviewInSolutionExplorer": false
 }
