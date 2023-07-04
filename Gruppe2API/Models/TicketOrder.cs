@@ -13,5 +13,6 @@ namespace Models
         public string Email { get; set; }
         public string OrderNumber { get => $"Order#{Id}"; }
         public List<TakenSeat> TakenSeats { get; set; }
+        public double TotalPrice { get; set; }
     }
 }
