@@ -11,5 +11,6 @@ namespace Models
         public int Id { get; set; }
         public int MatchId { get; set; }
         public int SeatId { get; set; }
+        public int TickerOrderId { get; set; }
     }
 }

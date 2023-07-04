@@ -2,6 +2,7 @@ using ApiHelper;
 using Microsoft.AspNetCore.Mvc;
 using Models;
 
+
 namespace Gruppe2API.Controllers
 {
     [ApiController]
@@ -26,9 +27,9 @@ namespace Gruppe2API.Controllers
         }
 
         [HttpPost("BuySeats")]
-        public async Task<bool> PostSeats(List<TakenSeat> seat)
+        public async Task<TicketOrder> PostSeats(List<TakenSeat> seat, string email)
         {
-            return await helper.BuySeat(seat);
+            return await helper.BuySeat(seat, email);
         }
     }
 }

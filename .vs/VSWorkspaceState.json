@@ -1,12 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-<<<<<<< HEAD
     "\\FrontEnd - Gruppe 2",
-=======
->>>>>>> 8dc20f8c2035d98360c82d4d22ecaec1028520a4
     "\\Gruppe2API",
-    "\\Gruppe2API\\ApiHelper"
+    "\\Gruppe2API\\ApiHelper",
+    "\\Gruppe2API\\Gruppe2API",
+    "\\Gruppe2API\\Gruppe2API\\Controllers",
+    "\\Gruppe2API\\Models"
   ],
   "SelectedNode": "\\Gruppe2API\\ApiHelper\\Helper.cs",
   "PreviewInSolutionExplorer": false
