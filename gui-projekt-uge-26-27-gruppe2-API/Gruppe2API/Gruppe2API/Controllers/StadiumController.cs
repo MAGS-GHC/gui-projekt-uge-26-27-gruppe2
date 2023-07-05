@@ -1,7 +1,7 @@
 using ApiHelper;
 using Microsoft.AspNetCore.Mvc;
 using Models;
-
+using Newtonsoft.Json;
 
 namespace Gruppe2API.Controllers
 {
@@ -27,9 +27,16 @@ namespace Gruppe2API.Controllers
         }
 
         [HttpPost("BuySeats")]
-        public async Task<TicketOrder> PostSeats(List<TakenSeat> seat, string email)
+        public async Task<int> PostSeats(List<TakenSeat> seat, string email, double price)
         {
-            return await helper.BuySeat(seat, email);
+            return await helper.BuySeat(seat, email, price);
+        }
+
+
+        [HttpGet("GetTicketOrder")]
+        public async Task<TicketOrder> GetTicketOrder (int id)
+        {
+            return await helper.GetTicketOrder(id);
         }
     }
 }
