@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BookingSide
 build_property.RootNamespace = BookingSide
-build_property.ProjectDir = C:\Users\Jonas\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\BookingSide\
+build_property.ProjectDir = C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\BookingSide\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Jonas\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\BookingSide
+build_property.MSBuildProjectDirectory = C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\BookingSide
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/App.razor]
+[C:/Users/nickl/Source/Repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Pages/Index.razor]
+[C:/Users/nickl/Source/Repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Pages/SelectSeatPage.razor]
+[C:/Users/nickl/Source/Repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Pages/SelectSeatPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0U2VhdFBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Shared/SurveyPrompt.razor]
+[C:/Users/nickl/Source/Repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/_Imports.razor]
+[C:/Users/nickl/Source/Repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Shared/MainLayout.razor]
+[C:/Users/nickl/Source/Repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-y13kayqdmo
 
-[C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Shared/NavMenu.razor]
+[C:/Users/nickl/Source/Repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-03zbn2nhl4
 
-[C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Pages/Error.cshtml]
+[C:/Users/nickl/Source/Repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Pages/_Host.cshtml]
+[C:/Users/nickl/Source/Repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

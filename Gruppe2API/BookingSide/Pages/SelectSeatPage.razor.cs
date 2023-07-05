@@ -1,7 +1,17 @@
-﻿namespace BookingSide.Pages
+﻿
+namespace BookingSide.Pages
 {
     public partial class SelectSeatPage 
     {
+        
+        
 
+      
+
+
+
+         
+
+    
     }
 }
