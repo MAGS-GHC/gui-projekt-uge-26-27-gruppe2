@@ -1,6 +1,14 @@
-﻿@page "/hej"
-<h3>SelectSeatPage</h3>
+﻿@using Models;
 
-@code {
+<div class="background" >
+    <div>VFF</div>
 
-}
+    @if (SelectedStadium != null)
+    {
+        foreach (StadiumSection s in SelectedStadium.Sections)
+        {
+
+        }
+    }
+</div>
+

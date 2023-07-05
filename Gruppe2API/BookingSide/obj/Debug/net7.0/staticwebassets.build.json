@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "Hash": "2W+DRaktp3ZBmiqL0bhlgBXGsJg4l3WWLoSxL+tQSQ0=",
+=======
   "Hash": "oLmkx8gwH8NkkOlIInMziza3O/zSsELaznAXKEaU9zE=",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
   "Source": "BookingSide",
   "BasePath": "_content/BookingSide",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "BookingSide\\wwwroot",
       "Source": "BookingSide",
+<<<<<<< HEAD
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+=======
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BookingSide.styles.css",
+      "SourceId": "BookingSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+=======
       "Identity": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BookingSide.styles.css",
       "SourceId": "BookingSide",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "BookingSide.styles.css",
       "AssetKind": "All",
@@ -31,6 +46,15 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BookingSide.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BookingSide.bundle.scp.css",
+      "SourceId": "BookingSide",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+=======
       "OriginalItemSpec": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BookingSide.styles.css"
     },
     {
@@ -38,6 +62,7 @@
       "SourceId": "BookingSide",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "BookingSide.bundle.scp.css",
       "AssetKind": "All",
@@ -48,6 +73,15 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BookingSide.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+=======
       "OriginalItemSpec": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BookingSide.bundle.scp.css"
     },
     {
@@ -55,6 +89,7 @@
       "SourceId": "BookingSide",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +103,17 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BookingSide",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +127,17 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BookingSide",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +151,17 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BookingSide",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +175,17 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BookingSide",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +199,17 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BookingSide",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +223,17 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BookingSide",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +247,17 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BookingSide",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +271,17 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BookingSide",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +295,17 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BookingSide",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +319,17 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\README.md",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BookingSide",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +343,17 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\site.css",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\css\\site.css",
       "SourceId": "BookingSide",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +367,17 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\favicon.png",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+=======
       "Identity": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\favicon.png",
       "SourceId": "BookingSide",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
       "BasePath": "_content/BookingSide",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -270,6 +389,230 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+<<<<<<< HEAD
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\images\\B1.png",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+      "BasePath": "_content/BookingSide",
+      "RelativePath": "images/B1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\B1.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\images\\B2.png",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+      "BasePath": "_content/BookingSide",
+      "RelativePath": "images/B2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\B2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\images\\B3.png",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+      "BasePath": "_content/BookingSide",
+      "RelativePath": "images/B3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\B3.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\images\\Field.png",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+      "BasePath": "_content/BookingSide",
+      "RelativePath": "images/Field.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Field.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\images\\Section G.png",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+      "BasePath": "_content/BookingSide",
+      "RelativePath": "images/Section G.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Section G.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\images\\Section H - Nedre.png",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+      "BasePath": "_content/BookingSide",
+      "RelativePath": "images/Section H - Nedre.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Section H - Nedre.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\images\\Section I - Nedre.png",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+      "BasePath": "_content/BookingSide",
+      "RelativePath": "images/Section I - Nedre.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Section I - Nedre.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\images\\Section J - Nedre.png",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+      "BasePath": "_content/BookingSide",
+      "RelativePath": "images/Section J - Nedre.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Section J - Nedre.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\images\\Section K.png",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+      "BasePath": "_content/BookingSide",
+      "RelativePath": "images/Section K.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Section K.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\images\\Section L.png",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+      "BasePath": "_content/BookingSide",
+      "RelativePath": "images/Section L.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Section L.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\images\\Section M Fan.png",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+      "BasePath": "_content/BookingSide",
+      "RelativePath": "images/Section M Fan.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Section M Fan.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\images\\Section M.png",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+      "BasePath": "_content/BookingSide",
+      "RelativePath": "images/Section M.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Section M.png"
+    },
+    {
+      "Identity": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\images\\Stadium 1.png",
+      "SourceId": "BookingSide",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\wwwroot\\",
+      "BasePath": "_content/BookingSide",
+      "RelativePath": "images/Stadium 1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Stadium 1.png"
+=======
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
     }
   ]
 }

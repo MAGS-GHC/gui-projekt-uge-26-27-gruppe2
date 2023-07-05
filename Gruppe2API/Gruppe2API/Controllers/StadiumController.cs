@@ -27,10 +27,16 @@ namespace Gruppe2API.Controllers
         }
 
         [HttpPost("BuySeats")]
-        public async Task<TicketOrder> PostSeats(string jsonString)
-        {            
-            BuySeatsModel buy = JsonConvert.DeserializeObject<BuySeatsModel>(jsonString);
-            return await helper.BuySeat(buy.Seats, buy.Email);
+        public async Task<int> PostSeats(List<TakenSeat> seat, string email, double price)
+        {
+            return await helper.BuySeat(seat, email, price);
+        }
+
+
+        [HttpGet("GetTicketOrder")]
+        public async Task<TicketOrder> GetTicketOrder (int id)
+        {
+            return await helper.GetTicketOrder(id);
         }
     }
 }

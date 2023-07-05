@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+/* _content/BookingSide/Pages/SelectSeatPage.razor.rz.scp.css */
+
+
+.background[b-jhlksrlvit] {
+    background-image: src('../wwwroot/images/Stadium 1.png');
+    aspect-ratio: initial;
+    height: max-content;
+    z-index: -1;
+    display: block;
+}
+=======
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43
 /* _content/BookingSide/Shared/MainLayout.razor.rz.scp.css */
 .page[b-y13kayqdmo] {
     position: relative;
@@ -69,6 +82,8 @@ main[b-y13kayqdmo] {
         padding-right: 1.5rem !important;
     }
 }
+<<<<<<< HEAD
+=======
 /* _content/BookingSide/Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-03zbn2nhl4] {
     background-color: rgba(255, 255, 255, 0.1);
@@ -138,3 +153,4 @@ main[b-y13kayqdmo] {
         overflow-y: auto;
     }
 }
+>>>>>>> ddd12a903d6d61ff6ab1558a4ed21d77bc9aef43

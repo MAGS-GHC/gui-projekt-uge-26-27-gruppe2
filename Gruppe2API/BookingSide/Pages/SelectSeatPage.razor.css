@@ -1,0 +1,8 @@
+﻿
+.background {
+    background-image: src('../wwwroot/images/Stadium 1.png');
+    aspect-ratio: initial;
+    height: max-content;
+    z-index: -1;
+    display: block;
+}

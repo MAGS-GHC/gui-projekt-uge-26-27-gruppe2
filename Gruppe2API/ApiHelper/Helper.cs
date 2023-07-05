@@ -54,6 +54,7 @@ namespace ApiHelper
                 Name = Convert.ToString((string)reader["Name"]),
                 StandingSection = Convert.ToInt32(reader["StandingSection"]) == 1 ? true : false,
                 Rows = Convert.ToInt32(reader["Rows"]),
+                Price = Convert.ToDouble(reader["Price"])
             };
 
             return section;
@@ -77,6 +78,20 @@ namespace ApiHelper
             {
                 Id = Convert.ToInt32(reader["Id"]),
                 Email = Convert.ToString(reader["Email"]),
+
+            };
+            return order;
+        }
+
+        private TempOrder MapTempTicket(IDataReader reader)
+        {
+
+            var order = new TempOrder
+            {
+                Email = Convert.ToString(reader["Email"]),
+                SeatId = Convert.ToInt32(reader["SeatId"]),
+                TicketOrderId = Convert.ToInt32(reader["TicketOrderId"]),
+                TotalPrice = Convert.ToDouble(reader["TotalPrice"]),
             };
             return order;
         }
@@ -222,24 +237,24 @@ namespace ApiHelper
 
         }
 
-        public async Task<TicketOrder> BuySeat(List<TakenSeat> seats, string email)
+        public async Task<int> BuySeat(List<TakenSeat> seats, string email, double price)
         {
             List<TakenSeat> takenSeats = await CheckTakenSeats(seats);
             foreach (TakenSeat tSeat in takenSeats)
             {
                 if (seats.Any(s => s.SeatId == tSeat.SeatId && s.MatchId == tSeat.MatchId))
                 {
-                    return null;
+                    return -1;
                 }
             }
 
-            int ticketOrderId = await SetTicketOrder(email);
-            if (ticketOrderId == -1) return null;
+            int ticketOrderId = await SetTicketOrder(email, price);
+            if (ticketOrderId == -1) return -1;
 
             string query = $@"INSERT IGNORE INTO TakenSeat (MatchId, SeatId, TicketOrderId) VALUES";
             seats.ForEach(s =>
             {
-                query += $" ({s.MatchId},{s.SeatId}),{ticketOrderId},";
+                query += $" ({s.MatchId},{s.SeatId},{ticketOrderId}),";
             });
             query = query.Remove(query.Length - 1, 1);
             query += ";";
@@ -255,32 +270,16 @@ namespace ApiHelper
             inserted = rowAffected == seats.Count;
             connection.Close();
 
-            if (!inserted) return null;
-            TicketOrder ticketOrder = await GetTicketOrderId(ticketOrderId);
-            return ticketOrder;
+            if (!inserted) return -1;
+
+            return ticketOrderId;
         }
 
-        async Task<TicketOrder> GetTicketOrderId(int id)
+
+
+        async Task<int> SetTicketOrder(string email, double price)
         {
-            string query = $"SELECT * FROM TicketOrder Where Id = {id}";
-            TicketOrder ticketOrder = new TicketOrder();
-            MySqlConnection connection = new MySqlConnection(connectionString);
-
-            MySqlCommand command = new MySqlCommand(query, connection);
-            await connection.OpenAsync();
-            DbDataReader reader = await command.ExecuteReaderAsync();
-            while (reader.Read())
-            {
-                ticketOrder = MapTicketOrder(reader);
-            }
-
-            connection.Close();
-            return ticketOrder;
-        }
-
-        async Task<int> SetTicketOrder(string email)
-        {
-            string query = $"INSERT INTO TicketOrder (Email) VALUES ('{email}');";
+            string query = $"INSERT INTO TicketOrder (Email, TotalPrice) VALUES ('{email}',{price});";
 
             string idQuery = $"SELECT LAST_INSERT_ID() AS Id;";
 
@@ -296,10 +295,7 @@ namespace ApiHelper
 
             while (reader.Read())
             {
-                if (id != -1)
-                {
-                    id = Convert.ToInt32(reader["Id"]);
-                }
+                id = Convert.ToInt32(reader["Id"]);
             }
             connection.Close();
             return id;
@@ -329,6 +325,37 @@ namespace ApiHelper
             }
             connection.Close();
             return takenSeats;
+        }
+
+
+        public async Task<TicketOrder> GetTicketOrder(int id)
+        {
+            string getQuery = $"SELECT t1.Email, t1.TotalPrice, t2.SeatId, t2.TicketOrderId FROM TicketOrder t1 INNER JOIN TakenSeat t2  ON t1.Id = t2.TicketOrderId WHERE t1.Id = {id}";
+
+            MySqlConnection connection = new MySqlConnection(connectionString);
+
+            MySqlCommand command = new MySqlCommand(getQuery, connection);
+
+            await connection.OpenAsync();
+
+            DbDataReader reader = await command.ExecuteReaderAsync();
+
+            List<TempOrder> tempOrders = new();
+
+            while (reader.Read())
+            {
+                tempOrders.Add(MapTempTicket(reader));
+            }
+
+            connection.Close();
+
+            TicketOrder ticketOrder = new TicketOrder();
+            ticketOrder.Id = tempOrders[0].TicketOrderId;
+            ticketOrder.TotalPrice = tempOrders[0].TotalPrice;
+            ticketOrder.Email = tempOrders[0].Email;
+
+            tempOrders.ForEach(t => { ticketOrder.Seats.Add(t.SeatId); });
+            return ticketOrder;
         }
     }
 }

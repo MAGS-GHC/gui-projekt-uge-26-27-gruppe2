@@ -13,5 +13,7 @@ namespace Models
         public string Name { get; set; }
         public int Rows { get; set; }
         public bool StandingSection { get; set; }
+
+        public double Price { get; set; }
     }
 }
