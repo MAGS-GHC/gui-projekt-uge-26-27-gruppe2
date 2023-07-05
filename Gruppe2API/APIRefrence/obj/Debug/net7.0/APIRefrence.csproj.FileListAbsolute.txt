@@ -1,0 +1,12 @@
+C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\APIRefrence\bin\Debug\net7.0\APIRefrence.deps.json
+C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\APIRefrence\bin\Debug\net7.0\APIRefrence.dll
+C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\APIRefrence\bin\Debug\net7.0\APIRefrence.pdb
+C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\APIRefrence\obj\Debug\net7.0\APIRefrence.csproj.AssemblyReference.cache
+C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\APIRefrence\obj\Debug\net7.0\APIRefrence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\APIRefrence\obj\Debug\net7.0\APIRefrence.AssemblyInfoInputs.cache
+C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\APIRefrence\obj\Debug\net7.0\APIRefrence.AssemblyInfo.cs
+C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\APIRefrence\obj\Debug\net7.0\APIRefrence.csproj.CoreCompileInputs.cache
+C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\APIRefrence\obj\Debug\net7.0\APIRefrence.dll
+C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\APIRefrence\obj\Debug\net7.0\refint\APIRefrence.dll
+C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\APIRefrence\obj\Debug\net7.0\APIRefrence.pdb
+C:\Users\nickl\Source\Repos\gui-projekt-uge-26-27-gruppe2\Gruppe2API\APIRefrence\obj\Debug\net7.0\ref\APIRefrence.dll

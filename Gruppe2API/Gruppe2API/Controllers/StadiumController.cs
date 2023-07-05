@@ -1,7 +1,7 @@
 using ApiHelper;
 using Microsoft.AspNetCore.Mvc;
 using Models;
-
+using Newtonsoft.Json;
 
 namespace Gruppe2API.Controllers
 {

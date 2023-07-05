@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Gruppe2API",
+    "\\Gruppe2API\\Models"
   ],
-  "SelectedNode": "\\C:\\Users\\nickl\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2",
+  "SelectedNode": "\\Gruppe2API\\Models\\TicketOrder.cs",
   "PreviewInSolutionExplorer": false
 }

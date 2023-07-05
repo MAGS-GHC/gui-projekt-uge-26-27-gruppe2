@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0CZSi4HKmFhVC5Mx792ecTNKMDqXORI68O5GUm93gyhNAg/U5VhVMMS54zKcKS6WlMaaTcmD4KR7SBqIMxhIzQ==",
+  "dgSpecHash": "pUn0LEPsfiKfczmbaJrm+kpaAF2vWLP82jV+feJ9BtK/EFvDE9rmkLc1H2DzfjsBz6LHBKC4XAn3hDodBzPu7A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\Gruppe2API.csproj",
   "expectedPackageFiles": [
@@ -43,5 +43,12 @@
     "C:\\Users\\Jonas\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Jonas\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\Gruppe2API\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "n9oLUnwkeDW3MWVvTx7lXbybRn1+P/R+pW7lM7M4LBRDRXf7hEr9EWtG5RrR+cc9PKfYaPrtqzdDbKe7WeINDw==",
+  "dgSpecHash": "8FEr+o7YPYGfv8tHP35vDsHGLr/ZwiBPWOhN2GMAJBPcI2SAlTYVAnsYkD633HIl46KX+LDxU4JMUrMgtAx/qA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jonas\\Source\\Repos\\gui-projekt-uge-26-27-gruppe2\\Gruppe2API\\BookingSide\\BookingSide.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Jonas\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
