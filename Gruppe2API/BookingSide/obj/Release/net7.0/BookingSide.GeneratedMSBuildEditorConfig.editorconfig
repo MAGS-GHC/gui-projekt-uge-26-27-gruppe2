@@ -24,25 +24,17 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Pages/SelectSeatPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0U2VhdFBhZ2UucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Pages/SelectSeatPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0U2VhdFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jhlksrlvit
+
 [C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-y13kayqdmo
-
-[C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-03zbn2nhl4
 
 [C:/Users/Jonas/source/repos/gui-projekt-uge-26-27-gruppe2/Gruppe2API/BookingSide/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
