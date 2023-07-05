@@ -11,6 +11,7 @@
           "ApiHelper": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.2",
           "Models": "1.0.0",
+          "Newtonsoft.Json": "13.0.3",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
