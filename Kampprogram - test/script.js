@@ -1,8 +1,8 @@
 let bool = true;
 
 async function getMatches() {
+
   let container = document.getElementById('container');
-  
   
   while(bool) {
     try {
@@ -20,12 +20,13 @@ async function getMatches() {
           let button = document.createElement('button');
           button.id = 'myButton';
           button.textContent = 'Køb billeter';
+            
             button.onclick = () => {
   
             };
           
           div.className = 'box';
-          div.textContent = homeTeam + " mod " + awayTeam + " " + matchDate;
+          div.textContent = homeTeam + " mod " + awayTeam + " - " + matchDate;
 
           container.appendChild(div);
           div.appendChild(button);
@@ -34,9 +35,11 @@ async function getMatches() {
       }
     } catch (error) {
         console.log('Error:', error);
+        return
       }
   }
 };
+
 
 
 
